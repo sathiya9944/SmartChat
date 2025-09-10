@@ -1,16 +1,56 @@
-# smartchat
+# 🤖 Smart Chat - Flutter AI Chat App
 
-A new Flutter project.
+Smart Chat is a **Flutter-based AI-powered chat application** that integrates with **Google Gemini API** to provide intelligent, human-like conversations.  
+It supports **text-based conversations** as well as **image input** for AI-powered responses.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- 💬 Real-time AI chat using **Gemini API**
+- 🖼️ Upload images and get AI-generated descriptions or answers
+- 🎨 Beautiful UI with **DashChat 2**
+- ⚡ Built with **Flutter + Dart**
+- 📱 Works on **Android**
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- [Flutter](https://flutter.dev/) - Cross-platform framework  
+- [Dart](https://dart.dev/) - Programming language  
+- [Google Gemini API](https://ai.google.dev/) - AI-powered responses  
+- [DashChat 2](https://pub.dev/packages/dash_chat_2) - Chat UI library  
+- [Image Picker](https://pub.dev/packages/image_picker) - Upload images  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+
+## ⚙️ Setup Instructions
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/smartchat.git
+   cd smartchat
+   ```
+
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+
+3. Add your **Gemini API Key** in `consts.dart`:
+   ```dart
+   const String GEMINI_API_KEY = "your_api_key_here";
+   ```
+
+4. Run the app:
+   ```sh
+   flutter run
+   ```
+
+
+
+
+
+
+
+
+
